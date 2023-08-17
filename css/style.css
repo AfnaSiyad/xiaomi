@@ -168,7 +168,9 @@ small {
 
 
 }
-
+.height-100{
+    height: 100%;
+}
 .grid-caption {
 
     flex-direction: column;
@@ -538,6 +540,72 @@ small {
     color: white;
     font-size: 20px;
 }
+@media only screen and (max-width: 996px){
+    .site-slide{
+     margin: 15px;
+    }
+    .site-grid{
+        margin: 15px;
+    }
+    .foot-title{
+        font-size: 1.7vw;
+    }
+    .foot-list-a {
+        font-size:1.5vw ;
+    }
+    .footer-title{
+        font-size: 1.9vw;
+    }
+    .mi-qr-content h3{
+        font-size: 1.9vw;
+    }
+
+ }
+
+@media only screen and (max-width: 850px){
+    .slide-title{
+        margin-bottom: 20px;
+        
+    }
+    .slide-tag{
+        padding-top: 0px;
+    }
+ }
+@media only screen and (max-width:768px){
+    .site-grid{
+        display: block;
+    }
+    .site-row div:first-child {
+        margin-top: 20px;
+    }
+    .text-title{
+        font-size: 3vw;
+    }
+    .text-item-a{
+        font-size: 2vw;
+    }
+}
+ @media only screen and (max-width: 576px){
+    .site-slide{
+     margin: 15px;
+     display: block;
+    }
+    .slide-tag{
+        font-size: 2.5vw;
+    }
+    .slide-title{
+        font-size: 3.5vw;
+        
+    }
+    .a-more-btn{
+        font-size: 2.7vw;
+    }
+ }
+ @media only screen and (max-width: 700px){
+    .site-footer_footer{
+        display: block;
+    }
+ }
 /* @media only screen and (max-width: 500px) {
    .image h2{
     font-size: 12px;
